@@ -1,0 +1,30 @@
+/* Light Theme */
+.app.light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #181818;
+  color: #f8f9fa;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #0056b3;
+}

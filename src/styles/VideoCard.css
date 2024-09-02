@@ -1,0 +1,40 @@
+/* Styling for video cards */
+.video-card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .channel-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .video-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .channel-name {
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  .verified-icon {
+    font-size: 12px;
+    color: #606060;
+    margin-left: 5px;
+  }
+  
+  .video-info {
+    font-size: 12px;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  

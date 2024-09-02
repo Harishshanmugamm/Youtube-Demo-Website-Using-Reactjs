@@ -1,0 +1,8 @@
+/* Styling for video grid */
+.video-grid {
+  padding: 20px;
+}
+
+.video-grid .row {
+  justify-content: flex-start;
+}
