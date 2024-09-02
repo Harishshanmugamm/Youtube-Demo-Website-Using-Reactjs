@@ -10,7 +10,6 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
         {!isCollapsed && <span>YouTube</span>}
       </div>
 
-      {/* Toggle Sidebar Button */}
       <button className="toggle-sidebar-btn" onClick={toggleSidebar}>
         <FaBars className="hamburger-icon" />
       </button>

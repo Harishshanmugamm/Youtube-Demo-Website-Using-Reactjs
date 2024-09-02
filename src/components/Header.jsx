@@ -1,6 +1,6 @@
-// Header.jsx
+
 import { FaSearch, FaBars, FaBell, FaUserCircle, FaTh } from 'react-icons/fa';
-import '../styles/Header.css'; // Custom CSS for layout
+import '../styles/Header.css'; 
 
 const Header = () => {
   return (

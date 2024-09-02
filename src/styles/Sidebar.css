@@ -1,4 +1,4 @@
-/* Sidebar Styles */
+
 .sidebar {
   width: 240px;
   height: 100vh;
@@ -12,7 +12,7 @@
 }
 
 .sidebar.collapsed {
-  width: 80px; /* Shrink width when collapsed */
+  width: 80px;
 }
 
 .youtube-logo {
@@ -36,7 +36,7 @@
 }
 
 .sidebar.collapsed .youtube-logo span {
-  display: none; /* Hide text in collapsed state */
+  display: none; 
 }
 
 .sidebar-items {
@@ -63,11 +63,11 @@
 }
 
 .sidebar.collapsed .sidebar-item {
-  padding: 10px; /* Adjust padding when collapsed */
+  padding: 10px; 
 }
 
 .sidebar.collapsed .sidebar-item span {
-  display: none; /* Hide text in collapsed state */
+  display: none; 
 }
 
 .sidebar-item span {
@@ -81,7 +81,7 @@ hr {
   border-top: 1px solid #e0e0e0;
 }
 
-/* Content shifts when sidebar is collapsed */
+
 .content {
   margin-left: 240px;
   padding: 20px;
@@ -92,7 +92,7 @@ hr {
   margin-left: 80px;
 }
 
-/* Toggle Sidebar Button */
+
 .toggle-sidebar-btn {
   background: none;
   border: none;
@@ -100,7 +100,6 @@ hr {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  /* Adjust position as needed */
 }
 
 .toggle-sidebar-btn .hamburger-icon {
